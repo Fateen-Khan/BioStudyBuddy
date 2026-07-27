@@ -1,35 +1,38 @@
-# BioBridge AI
+URL: https://bio-study-buddy.vercel.app/
+# BioStudy Buddy
 
-BioBridge AI is an AI-powered study platform for biotechnology students. It combines an AI study assistant, note summarizer, quiz generator, flashcard generator, and research paper simplifier into a single modern web app.
+BioStudy Buddy is an AI-powered web application designed to help biology and biotechnology students by providing instant answers to academic questions using Google Gemini AI.
 
 ## Features
-- Landing page with hero, features, testimonials, FAQ, and contact
-- Dashboard for key study tools
-- AI study assistant with follow-up-style question support
-- Note summarization
-- Quiz generation
-- Flashcard generation
-- Research paper simplification
-- Responsive layout and polished UI
+- AI-powered chatbot
+- Biology and biotechnology focused
+- Fast and responsive interface
+- Accessible online through Vercel
 
-## Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js + Express
-- AI: OpenAI API
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- Google Gemini API
+- GitHub
+- Vercel
 
-## Installation
-1. Install dependencies: `npm install`
-2. Create a `.env` file with:
-   - `PORT=3000`
-   - `OPENAI_API_KEY=your_openai_api_key`
-3. Start the app: `npm start`
+## Live Demo
+https://bio-study-buddy.vercel.app/
 
-## Development
-- Run locally with `npm run dev`
+## GitHub Repository
+https://github.com/Fateen-Khan/BioStudyBuddy
 
-## Project Structure
-- `public/` - Frontend assets and single-page app
-- `server.js` - Express server and API routes
+## Author
+Fateen Khan
 
-## Notes
-- The app uses a fallback local response system when the OpenAI API key is not configured.
+Project Title
+
+BioStudy Buddy – AI-Powered Biology & Biotechnology Study Assistant
+
+ Short Description
+BioStudy Buddy is an AI-powered web application that helps students learn biology and biotechnology by providing instant, accurate, and easy-to-understand answers to study questions.
+ Problem Statement
+Many biology and biotechnology students struggle to quickly find clear explanations of complex topics. BioStudy Buddy provides instant AI-generated responses to support learning and revision.
