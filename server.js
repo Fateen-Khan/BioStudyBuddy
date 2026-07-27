@@ -185,7 +185,13 @@ module.exports = {
 };
 
 if (require.main === module) {
+  // Start server only locally
+if (process.env.NODE_ENV !== "production") {
   app.listen(PORT, () => {
-    console.log(`BioBridge AI server running on http://localhost:${PORT}`);
+    console.log(`Server running on ${PORT}`);
+  });
+}
+
+module.exports = app;
   });
 }
